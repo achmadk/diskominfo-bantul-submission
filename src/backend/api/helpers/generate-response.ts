@@ -13,7 +13,7 @@ export function generateResponse<
   Data = unknown,
   ReturnType extends BaseResponse<Data> = BaseResponse<Data>,
   Options extends GenerateResponseOptions = GenerateResponseOptions
->(data: Data, options?: Options) {
+>(data: Data, options?: Partial<Options>) {
   const message = options?.message ?? "success";
   const status = options?.status ?? 200;
   const keyword = options?.keyword ?? null;
