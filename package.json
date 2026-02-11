@@ -1,0 +1,52 @@
+{
+  "name": "diskominfo-bantul-submission",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS=--max_old_space_size=4096 refine dev",
+    "build": "refine build",
+    "start": "refine start",
+    "lint": "next lint",
+    "refine": "refine"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^6.1.6",
+    "@mui/lab": "^6.0.0-beta.14",
+    "@mui/material": "^6.1.7",
+    "@mui/x-data-grid": "^7.22.2",
+    "@refinedev/cli": "^2.16.51",
+    "@refinedev/core": "^5.0.9",
+    "@refinedev/devtools": "^2.0.4",
+    "@refinedev/kbar": "^2.0.1",
+    "@refinedev/mui": "^7.0.0",
+    "@refinedev/nextjs-router": "^7.0.4",
+    "@refinedev/react-hook-form": "^5.0.4",
+    "@refinedev/simple-rest": "^6.0.1",
+    "axios": "1.13.5",
+    "drizzle-orm": "beta",
+    "js-cookie": "^3.0.5",
+    "next": "^16.1.6",
+    "pg": "^8.18.0",
+    "query-string": "9.3.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-hook-form": "^7.71.1"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^25",
+    "@types/pg": "^8.16.0",
+    "@types/react": "^19.2.13",
+    "@types/react-dom": "^19.2.3",
+    "cross-env": "^10.1.0",
+    "drizzle-kit": "beta",
+    "eslint": "^10",
+    "eslint-config-next": "^16.1.6",
+    "typescript": "^5.9.3"
+  }
+}
