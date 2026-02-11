@@ -41,14 +41,16 @@ export default function BlogPostList() {
         headerAlign: "left",
       },
       {
-        field: "category_id",
+        field: "category_name",
         headerName: "Category",
         display: "flex",
+        flex: 1.5,
       },
       {
-        field: "supplier_id",
+        field: "supplier_name",
         headerName: "Supplier",
         display: "flex",
+        flex: 2,
       },
       {
         field: "unit_price",
